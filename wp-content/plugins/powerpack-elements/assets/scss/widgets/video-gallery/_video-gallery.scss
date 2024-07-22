@@ -1,0 +1,60 @@
+.pp-video-gallery {
+    .pp-video-player > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+	.elementor-video {
+		object-fit: cover;
+		vertical-align: middle;
+	}
+}
+.pp-video-play {
+    color: #333;
+}
+.pp-video-gallery {
+    li {
+        background: #ccc;
+        border-radius: 50%;
+        position: relative;
+        display: inline-block;
+        margin: 0 4px;
+        padding: 0;
+        vertical-align: middle;
+        button {
+            background: transparent;
+            border: 0;
+            box-shadow: none;
+            color: transparent;
+            cursor: pointer;
+            display: block;
+            font-size: 0;
+            line-height: 0;
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            outline: none;
+        }
+    }
+}
+.pp-video-gallery-content-hover,
+.pp-video-gallery-content-over-image {
+    .pp-media-content {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        transition: opacity 0.2s ease-in-out;
+    }
+}
+.pp-video-gallery-content-hover {
+    .pp-media-content {
+        opacity: 0;
+    }
+    .pp-grid-item-wrap:hover {
+        .pp-media-content {
+            opacity: 1;
+        }   
+    }
+}

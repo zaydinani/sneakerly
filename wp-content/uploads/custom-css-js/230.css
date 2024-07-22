@@ -1,0 +1,15 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*change color of dropdown icon in mobile nav*/
+.e-font-icon-svg.e-fas-caret-down path {
+    fill: #2EFF81;
+}
+/*change button hover*/
+.button{
+	transition: .3s;
+	padding: 0px;
+}
+.button:hover{
+	border-radius: 50px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

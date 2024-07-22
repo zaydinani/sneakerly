@@ -1,0 +1,27 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.addtocart{
+	margin: 0px;
+	height: 200px;
+}
+.wl-quantity-wrap{
+	margin-bottom: 19px;
+}
+
+#tab-title-reviews, #tab-title-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.single_add_to_cart_button{
+	border-radius: 0px;
+}
+.cfvsw-swatches-option{
+	background-color: #191A1F;
+	border: 1px solid #7797BB;
+	color: white;
+}
+
+#woolentor-stock-status-8fe9c04{
+	display: none;
+}</style>
+<!-- end Simple Custom CSS and JS -->
