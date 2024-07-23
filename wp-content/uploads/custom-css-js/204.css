@@ -23,5 +23,40 @@
 
 #woolentor-stock-status-8fe9c04{
 	display: none;
+}
+
+.wl-addto-cart.wl-style-3 form.cart, .wl-addto-cart.wl-style-4 form.cart, .wl-addto-cart.wl-style-5 form.cart, .wl-addto-cart.variable.wl-style-3 form.cart .single_variation_wrap .woocommerce-variation-add-to-cart, .wl-addto-cart.variable.wl-style-4 form.cart .single_variation_wrap .woocommerce-variation-add-to-cart, .wl-addto-cart.variable.wl-style-5 form.cart .single_variation_wrap .woocommerce-variation-add-to-cart {
+    margin-bottom: 0px;
+}
+
+.elementor-184 .elementor-element.elementor-element-129e6f0 .wl-addto-cart[class*="wl-style-"] form.cart button {
+	border-radius: 0px;
+}
+
+.wl-addto-cart.wl-style-4 form.cart .wl-quantity-wrap .wl-quantity-cal {
+    border-radius: 0px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce div.ast-product-tabs-layout-vertical .woocommerce-tabs ul.tabs li:hover::before {
+    background: #7797BB;
+}
+
+.woocommerce-js h2 {
+    margin-bottom: 0px;
+}
+
+.ht-feature-wrap .ht-feature-img svg {
+margin-top: 10px;
+}
+
+.wl-columns-5 .wl-row > [class*="col-"] {
+	height: 50px;
+	overflow: none;
+}
+
+.wlsingle-categorie {
+    border: 1px solid #f3f3f3;
+	height: 50px
+    margin-bottom: 0;
 }</style>
 <!-- end Simple Custom CSS and JS -->
