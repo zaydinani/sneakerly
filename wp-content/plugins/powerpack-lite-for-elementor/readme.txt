@@ -4,7 +4,7 @@ Tags: elementor, addons, elementor addon, elementor addons, elementor widgets
 Requires at least: 6.0
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 2.7.25
+Stable tag: 2.7.26
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -234,8 +234,12 @@ Not at all! All the widgets and settings are easy to use with drag & drop interf
 
 == Changelog ==
 
+= 2.7.26 - July 17, 2024 =
+* 	Fixed: Instagram Feed - PHP error
+
 = 2.7.25 - July 16, 2024 =
 * 	Fixed: Posts - JS error with load more pagination
+* 	Fixed: Gravity Forms - Submit Margin Top option
 * 	Fixed: Info Grid & Carousel - Center Slides option was not working on frontend
 
 = 2.7.24 - July 10, 2024 =
