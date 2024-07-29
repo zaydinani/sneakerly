@@ -1,0 +1,33 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.elementor-81 .elementor-element.elementor-element-a59fd0c .e-filter-item,
+.elementor-436 .elementor-element.elementor-element-efcdceb .e-filter-item,
+.elementor-587 .elementor-element.elementor-element-9e1fe37 .e-filter-item,
+.elementor-587 .elementor-element.elementor-element-458661b .e-filter-item{
+    box-sizing: border-box;
+    padding: 16px;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+	cursor: pointer;
+}
+
+	.elementor-436 .elementor-element.elementor-element-efcdceb .e-filter-item,
+	.elementor-587 .elementor-element.elementor-element-9e1fe37 .e-filter-item{
+    	padding: 16px;
+	}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+   	.elementor-81 .elementor-element.elementor-element-a59fd0c .e-filter-item,
+	.elementor-436 .elementor-element.elementor-element-efcdceb .e-filter-item, 
+	.elementor-587 .elementor-element.elementor-element-9e1fe37 .e-filter-item,
+	.elementor-587 .elementor-element.elementor-element-458661b .e-filter-item {
+        width: auto; 
+        min-width: auto;
+    }
+}
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

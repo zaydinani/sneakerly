@@ -17,5 +17,8 @@ End of comment */
     width: 100%;
     display: flex;
     justify-content: flex-start;
+}
+.elementor-pagination{
+    margin-top:16px;
 }</style>
 <!-- end Simple Custom CSS and JS -->

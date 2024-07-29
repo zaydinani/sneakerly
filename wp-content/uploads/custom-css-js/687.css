@@ -1,0 +1,17 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Styles for the last <a> element in the navigation bar */
+#menu-1-d3816fa li:last-child a {
+    background-color: #7797BB !important; /* Example styling */
+    color: black !important; /* Example styling */
+    font-weight: bold !important; /* Example styling */
+    padding: .5rem 1rem !important;
+    border-bottom: none !important; /* Ensure no border-bottom is applied */
+}
+
+/* Override styles for the ::after pseudo-element of the last <a> if it's the current menu item */
+#menu-1-d3816fa li:last-child a::after {
+    background-color: transparent !important;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

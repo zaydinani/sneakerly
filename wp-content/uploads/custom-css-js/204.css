@@ -29,8 +29,10 @@
     margin-bottom: 0px;
 }
 
-.elementor-184 .elementor-element.elementor-element-129e6f0 .wl-addto-cart[class*="wl-style-"] form.cart button {
+
+.elementor-184 .elementor-element.elementor-element-a0b5bdd .wl-addto-cart[class*="wl-style-"] form.cart button, .elementor-184 .elementor-element.elementor-element-a0b5bdd .wl-style-1 form.cart button {
 	border-radius: 0px;
+
 }
 
 .wl-addto-cart.wl-style-4 form.cart .wl-quantity-wrap .wl-quantity-cal {
@@ -53,10 +55,44 @@ margin-top: 10px;
 	height: 50px;
 	overflow: none;
 }
+.tabs{
+	display: flex;
+}
+.description_tab{
+	width: 40%;
+}
+.reviews_tab{
+		width: 40%;
 
-.wlsingle-categorie {
-    border: 1px solid #f3f3f3;
-	height: 50px
-    margin-bottom: 0;
-}</style>
+}
+
+.gallery-navigation-carousel .wcgs-thumb {
+    height: 80px; /* Set fixed height for the div */
+    overflow: hidden; /* Ensure any overflow is hidden */
+    display: flex; /* Use flexbox to center the image */
+    align-items: center;
+    justify-content: center;
+}
+
+#wpgs-gallery .wcgs-thumb.swiper-slide img {
+    height: 80px; /* Make the image fit the height of the div */
+    width: auto; /* Keep the aspect ratio */
+    object-fit: contain; /* Ensure the image covers the entire div */
+}
+
+.swiper-free-mode>.swiper-wrapper {
+
+    height: 80px;
+}
+
+#wpgs-gallery.wcgs-woocommerce-product-gallery .wcgs-carousel {
+	height: 400px;
+}
+#wpgs-gallery .wcgs-thumb.swiper-slide-thumb-active.wcgs-thumb img  {
+	border-bottom: 1px solid #61ce70;
+	padding-bottom: 1rem;
+}
+
+
+</style>
 <!-- end Simple Custom CSS and JS -->
